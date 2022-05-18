@@ -1,0 +1,74 @@
+/*GENERAL*/
+:root{
+    --oscuro: #383838;
+    --fuerte: #56BBF1;
+    --medio: #EC994B;
+    --claro: #F2F2F2;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+/*SOBRE MI*/
+.perfil-biografico{
+    height: auto;
+}
+
+
+
+.foto-biografica{
+    width: 128px;
+    height: auto;
+    border-radius: 50%;
+    border: 5px solid var(--oscuro);
+    margin: 0;
+}
+
+.perfil-biografico-superior{
+    width: auto;
+    height: 128px;
+    padding-top: 128px;
+    background-color: var(--oscuro) !important;
+}
+.perfil-biografico-inferior{
+    width: auto;
+    height: 128px;
+    /*background-color: var(--claro) ;*/
+    background-image: url('../imagen/electronicauno.webp') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+button{
+    font-weight: 700;
+    font-size: large;
+}
+
+
+.list-group-item{
+    border: none; 
+}
+
+
+
+
+img{
+    width: 100px;
+    height: auto;
+}
+
+svg {
+    margin-right: 10px;
+
+}
+
+/* PORFOLIO*/
+.mod{
+ width: 300px;
+ height: auto;
+ text-align: center;
+}
+
+
+
